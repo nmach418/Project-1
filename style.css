@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    
+    
+    background-color: rgb(128, 141, 141);
+    font-family: Arial, sans-serif;
+}
+#city {
+
+}
+#form {  
+
+}
+#enterAns {
+    margin-bottom: 30px;
+    background-color: rgb(209, 221, 175);
+}
+#checkAns {
+    background-color: rgb(209, 221, 175);
+}
