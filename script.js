@@ -108,21 +108,30 @@ let a50 = stateCap[49]
 
 
 
-
+// just a standard 'for loop that I'm not using yet
 
 for (let i = 0; i <= usStates.length; i++) {
     console.log(usStates[i])
  }
 
- function askQuestion() {  
-    document.querySelector("#city").innerHTML = (usStates[0])  
-        // if {textboxInput === a1}
 
-       // }                                                            
+// renders quiz questions in the HTML paragraph - still need to automate / interate
+// one-at-a-time through usStates array
+
+ function askQuestion() {  
+    document.querySelector("#city").innerHTML = (usStates[0])                                       
 }
     askQuestion()
 
-// if q1 === a1
+
+// Trying to get this to work in conjunction with the 'onclick' method on the HTML button
+
+    function checkAnsFunction() {
+        if (document.querySelector("#enterAns") === a1) {
+            console.log("You nailed it!");
+        }        
+    }   
+    checkAnsFunction()
 
 
 /*
