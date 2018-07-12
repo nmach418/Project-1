@@ -29,10 +29,6 @@ test2();
 
 
 
-
-
-
-
 // if (ansQ1 === "Montgomery") {
 // }
 
