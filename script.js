@@ -3,6 +3,8 @@ console.log("Yosh!")
 const usStates = ["What is the capital of Alabama?", "What is the capital of Alaska?"] // Temp --- shortened array for testing --- "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"]
 const stateCap = ["Montgomery", "Juneau"] // Temp -- shortened array for testing --- "Phoenix", "Little Rock", "Sacramento", "Denver", "Hartford", " Dover", "Tallahassee", "Atlanta", "Honolulu", "Boise", "Springfield", "Indianapolis", "Des Moines", "Topeka", "Frankfort", "Baton Rouge", "Augusta", "Annapolis", "Boston", "Lansing", "Saint Paul", "Jackson", "Jefferson City", "Helena", "Lincoln", "Carson City", "Concord", "Trenton", "Santa Fe", "Albany", "Raleigh", "Bismarck", "Columbus", "Oklahoma City", "Salem", "Harrisburg", "Providence", "Columbia", "Pierre", "Nashville", "Austin", "Salt Lake City", "Montpelier", "Richmond", "Olympia", "Charleston", "Madison", "Cheyenne"]
 
+
+
 let q1 = usStates[0]
 let q2 = usStates[1]
 let q3 = usStates[2]
@@ -110,9 +112,9 @@ let a50 = stateCap[49]
 
 // standard 'for loop that I'm not using yet
 
-for (let i = 0; i <= usStates.length; i++) {
-    console.log(usStates[i])
- }
+// for (let i = 0; i <= usStates.length; i++) {
+//        console.log(usStates[i])
+//}
 
 
 // renders quiz questions in the HTML paragraph - still need to automate / interate
@@ -120,7 +122,7 @@ for (let i = 0; i <= usStates.length; i++) {
 
 
  function askQuestion() {  
-    document.querySelector("#city").innerHTML = (usStates[0])                                       
+    document.querySelector("#city").innerHTML = usStates[i]                                       
 }
     askQuestion()
 
@@ -131,56 +133,21 @@ for (let i = 0; i <= usStates.length; i++) {
 
     function checkAnsFunction() {
         let answer = document.querySelector("#enterAns").value
-        if (answer === a1) {
-            alert("You nailed it!");
+        if (answer === a2) {
+            document.querySelector("#response").innerHTML = "You Nailed It! You Rule!"
+            // alert("You nailed it!");
         }   
         else {
-            alert("Sorry, try again")
-        }     
+            //alert("Sorry, try again")
+       
+          document.querySelector("#response").innerHTML = "Sorry, try again" 
+        }
     }   
     checkAnsFunction()
 
 
-// element.addEventListener('click', function() { /* do stuff here*/ }, false);
 
 /*
-// Attempted to used test() function to enter quiz question into HTML. No luck.
-
-function test() {  
-    document.querySelector("#city").innerHTML = "Use to enter question from usStates array into HTML p tag id=city"                                                              
-    }
-    test()
-
-*/
-
-
-/*
-// Attempted to used test2() function to enter quiz question into HTML. No luck.
-
-function test2() {
-let isThisIt = document.getElementById("city").innerHTML = "Use to enter question from usStates array into HTML p tag id=city"
-}
-test2();
-
-*/
-
-
-
-// if (ansQ1 === "Montgomery") {
-// }
-
-
-
-/*
-// Note: ansQ1 below is textbox input - via DOM path...? Figure out how to do it.
-
-// if (ansQ1 == stateCap[0]) {
-
-}
-
-
-// Think about how to get state names from usStates array into the question paragraph e.g.,: document.querySelector("#city").innerHTML = usStates (for looped?)
-// Write the questions directly into the usStates array???
 
 
 for (let i = 0; i <= usStates.length; i++) {    
@@ -191,15 +158,5 @@ for (let i = 0; i <= usStates.length; i++) {
         console.log("no");
     }
  }
-
-
-
-// May not need to pass testbox input into a function as a variable. It may be better
-// to use the DOM to retrieve the data for your/the function
-
- function stateCapCompare(textboxInput) {
-    if ()
-
-}
 
 */

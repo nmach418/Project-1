@@ -1,15 +1,13 @@
 body {
     text-align: center;
-    
-    
-    background-color: rgb(128, 141, 141);
+    background-color: rgb(201, 220, 236);
     font-family: Arial, sans-serif;
 }
 #city {
-
+    text-align: center;
 }
 #form {  
-
+    text-align: center;
 }
 #enterAns {
     margin-bottom: 30px;
@@ -19,3 +17,5 @@ body {
 #checkAns {
     background-color: rgb(231, 235, 222);
 }
+
+// test please erase after test
