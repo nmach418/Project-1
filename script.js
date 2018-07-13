@@ -1,9 +1,8 @@
 const usStates = ["What is the capital of Alabama?", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"]
 const stateCap = ["Montgomery", "Juneau", "Phoenix", "Little Rock", "Sacramento", "Denver", "Hartford", " Dover", "Tallahassee", "Atlanta", "Honolulu", "Boise", "Springfield", "Indianapolis", "Des Moines", "Topeka", "Frankfort", "Baton Rouge", "Augusta", "Annapolis", "Boston", "Lansing", "Saint Paul", "Jackson", "Jefferson City", "Helena", "Lincoln", "Carson City", "Concord", "Trenton", "Santa Fe", "Albany", "Raleigh", "Bismarck", "Columbus", "Oklahoma City", "Salem", "Harrisburg", "Providence", "Columbia", "Pierre", "Nashville", "Austin", "Salt Lake City", "Montpelier", "Richmond", "Olympia", "Charleston", "Madison", "Cheyenne"]
 
-
-
 // The  long list of 'q' variables below are unnecessary. Remove them after completing work with the arrays.
+
 let q1 = usStates[0]
 let q2 = usStates[1]
 let q3 = usStates[2]
@@ -113,7 +112,6 @@ for (let i = 0; i <= usStates.length; i++) {
     console.log(usStates[i])
 }
 
-
 // Renders quiz questions in the HTML p tag - need to interate through array
 
  function askQuestion() {  
@@ -136,19 +134,3 @@ function checkAnsFunction() {
     }
  }   
     checkAnsFunction()
-
-
-
-
-/*
-
-for (let i = 0; i <= usStates.length; i++) {    
-    if (usStates[i] === stateCap[0]) {
-        console.log("yes");
-    }
-    else {
-        console.log("no");
-    }
- }
-
-*/
