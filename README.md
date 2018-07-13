@@ -1,9 +1,11 @@
 # Project-1
 
-#State Capital Quiz
-##The purpose of the State Capital Quiz application is to gamify the process of learning the 50 U.S State Capaitals.
-##Features
-* 
+## State Capital Quiz
+
+### The purpose of the State Capital Quiz application is to gamify the process of learning the 50 U.S State Capaitals.
+
+### Features
+
 * User views question asking
   what is the state capital of a given state.
 * User enters their answer 
