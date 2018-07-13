@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: rgb(201, 220, 236);
+    background-color: rgb(208, 198, 245);
     font-family: Arial, sans-serif;
 }
 #city {
@@ -17,4 +17,3 @@ body {
 #checkAns {
     background-color: rgb(231, 235, 222);
 }
-
