@@ -122,7 +122,8 @@ let a50 = stateCap[49]
 
 
  function askQuestion() {  
-    document.querySelector("#city").innerHTML = usStates[i]                                       
+    
+    document.querySelector("#city").innerHTML = q1                                     
 }
     askQuestion()
 
@@ -133,7 +134,7 @@ let a50 = stateCap[49]
 
     function checkAnsFunction() {
         let answer = document.querySelector("#enterAns").value
-        if (answer === a2) {
+        if (answer === a1) {
             document.querySelector("#response").innerHTML = "You Nailed It! You Rule!"
             // alert("You nailed it!");
         }   
