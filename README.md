@@ -2,7 +2,8 @@
 
 ## State Capital Quiz
 
-### The purpose of the State Capital Quiz application is to gamify the process of learning the 50 U.S State Capaitals.
+### Description
+The purpose of the State Capital Quiz application is to gamify the process of learning the names of the 50 U.S State Capitals.
 
 ### Features
 
@@ -14,3 +15,12 @@
   'Check Answer' button to check the answer.
 * User is then provided with
   one of two reponses after clicking the 'Check Answer' button: "You Nailed it! You Rule", if correct. Or "Sorry, try again, if incorrect.
+
+### Technologies
+
+* HTML
+* CSS
+* Javascript
+
+
+
