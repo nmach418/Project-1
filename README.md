@@ -14,7 +14,7 @@ The purpose of the State Capital Quiz application is to gamify the process of le
 * User then clicks the
   'Check Answer' button to check the answer.
 * User is then provided with
-  one of two reponses after clicking the 'Check Answer' button: "You Nailed it! You Rule", if correct. Or "Sorry, try again, if incorrect.
+  one of two reponses after clicking the 'Check Answer' button: "You Nailed it! You Rule!", if correct. Or "Sorry, try again, if incorrect.
 
 ### Technologies
 
